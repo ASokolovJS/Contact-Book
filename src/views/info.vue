@@ -33,9 +33,7 @@ export default {
       confirm("Отменить изменения?") ? (this.reserve(), this.showInfo()) : this.showInfo() ;
     },
     delit(id) {
-      if (confirm("Удалить?")) {
-        this.removeInfo(id);
-      }
+      confirm("Удалить?") ? this.removeInfo(id) : "";
     },
     show() {
       this.showInfo();

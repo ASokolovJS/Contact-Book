@@ -28,11 +28,8 @@ export default {
       localStorage.idCont = id
     },
     delit(id) {
-      if (confirm("Удалить?")) {
-        this.removeCont(id);
-        this.showCont()
-      }
-    },
+      confirm("Удалить?") ? (this.removeCont(id), this.showCont()) : this.showCont();
+      },
     show() {
       this.showCont();
     },
