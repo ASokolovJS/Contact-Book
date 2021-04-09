@@ -7,7 +7,8 @@
 
 <style>
 #app {
-position: absolute;
+width:300px;
+margin:0 auto;
 width: 300px;
 height: 600px;
 left: 40px;

@@ -9,10 +9,10 @@
       @delit="delit"
     />
     <addInfo />
+    <button class="buttonBack" @click="stepBack">Шаг назад</button>
     <a href="/">
       <button class="back">Назад</button>
     </a>
-    <button class="buttonBack" @click="stepBack">Шаг назад</button>
   </div>
 </template>
 
@@ -51,11 +51,12 @@ export default {
   text-align: center;
 }
 .back {
-  position: absolute;
-  right: 5px;
+  width:300px;
+  margin:0 auto;
 }
 .buttonBack{
-  position: absolute;
-  left: 5px;
+  width:300px;
+  margin:0 auto;
+  margin-bottom: 5px;
 }
 </style>
