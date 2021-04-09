@@ -18,6 +18,8 @@ export default {
 
 <style  scoped>
 #delit {
-  margin-left: 200px;
-}
+ position: absolute;
+ right: 43%;
+ 
+ }
 </style>
